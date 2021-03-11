@@ -11,30 +11,18 @@ export const color = {
 }
 
 export const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family:'SF Compact Light';
-    src: url('/fonts/SF-Compact-Text-LightItalic.otf') format('truetype');
-  }
-
-  @font-face {
-    font-family:'SF Compact Regular';
-    src: url('/fonts/SF-Compact-Text-RegularItalic.otf') format('truetype');
-  }
-
-  @font-face {
-    font-family:'SF Compact Thin';
-    src: url('/fonts/SF-Compact-Text-Thin.woff') format('truetype');
-  }
-
-  @font-face {
-    font-family:'SF Compact Rounded';
-    src: url('/fonts/SF-Compact-Text-Rounded-Semibold.ttf') format('truetype');
-  }
-
   h1 {
     color: ${color.yellow};
     font-family: 'SF Compact Rounded';
     font-size: 4rem;
+  }
+
+  h3{
+    color: ${color.pink};
+    font-family: 'SF Compact Rounded';
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 10px 0 0 0
   }
 
   p{
@@ -47,5 +35,37 @@ export const GlobalStyles = createGlobalStyle`
     color: ${color.white};
     font-family: 'SF Compact Rounded';
     font-size: 1.25rem;
+  }
+
+  input{
+    width: 500px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 55px; 
+    font-family: 'SF Compact Rounded';
+    color: ${color.gray};
+  }
+
+  textarea{
+    width: 500px;
+    height: 150px;
+    margin: 10px 0;
+    padding: 20px 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 20px; 
+    font-family: 'SF Compact Rounded';
+    color: ${color.gray};
+  }
+
+  button{
+    border: none;
+    background-color: ${color.pink};
+    width: 192px;
+    height: 47px;
+    border-radius: 55px;
+    color: ${color.white};
+    font-size: 1.1rem;
   }
 `

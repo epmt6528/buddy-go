@@ -1,9 +1,24 @@
+@font-face {
+  font-family: 'SF Compact Rounded';
+  src: url('/fonts/SF-Compact-Text-Rounded-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Compact Thin';
+  src: url('/fonts/SF-Compact-Text-Thin.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Compact Rounded Ultralight';
+  src: url('/fonts/SF-Compact-Text-Rounded-Ultralight.ttf') format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {

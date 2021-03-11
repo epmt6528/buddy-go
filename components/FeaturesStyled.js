@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { color } from '../pages/ThemeConfig'
 
-export const DIV = styled.div`
-  margin: 70px 0;
+export const SCREENDIV = styled.div`
+  margin: 70px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,7 @@ export const TEXTDIV = styled.div`
   max-width: 540px;
   position: relative;
   right: -60px;
+  top: -35px;
   z-index: 2;
 `
 
@@ -27,4 +28,34 @@ export const SPAN = styled.span`
 export const P = styled.p`
   max-width: 400px;
   margin-left: 25px;
+`
+
+export const LINERDIV = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+export const LINERH1 = styled.h1`
+  position: absolute;
+  color: ${color.purple};
+`
+export const LINERSPAN = styled.span`
+  font-family: 'SF Compact Rounded Ultralight';
+  color: ${color.gray};
+  margin: 0 30px;
+`
+
+export const FEATURESDIV = styled.div`
+  margin: 120px 0;
+`
+
+export const FEATURESUL = styled.ul`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+`
+export const FEATURES__P = styled.p`
+  max-width: 226px;
+  margin: 30px 0;
 `
