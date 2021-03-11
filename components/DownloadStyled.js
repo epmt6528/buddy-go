@@ -5,6 +5,16 @@ export const DIV = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  .badgeDiv {
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+
+    > div {
+      margin-bottom: 30px !important;
+    }
+  }
+
   img {
     cursor: pointer;
   }

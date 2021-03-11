@@ -18,9 +18,20 @@ const Download = () => {
         </p>
       </div>
 
-      <Link href="https://play.google.com/store/apps">
-        <Image src="/img/Download/googlePlayBadge.png" width={205} height={80} alt="Husky dog" />
-      </Link>
+      <div className="badgeDiv">
+        <Link href="https://www.apple.com/ca/app-store/">
+          <Image src="/img/Download/appStoreBadge.png" width={180} height={60} alt="app store" />
+        </Link>
+
+        <Link href="https://play.google.com/store/apps">
+          <Image
+            src="/img/Download/googlePlayBadge.png"
+            width={180}
+            height={60}
+            alt="google play"
+          />
+        </Link>
+      </div>
     </DIV>
   )
 }

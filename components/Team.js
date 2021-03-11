@@ -5,7 +5,9 @@ import { DIV } from './TeamStyled'
 const Team = () => {
   return (
     <DIV id="team">
-      <h2 className="global__areaTitle">Our Team</h2>
+      <div className="titleDiv">
+        <h2 className="global__areaTitle">Our Team</h2>
+      </div>
 
       <div className="memberList">
         <TeamMember

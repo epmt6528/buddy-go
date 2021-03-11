@@ -70,7 +70,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   input{
-    width: 500px;
+    width: 100%;
     height: 40px;
     margin: 10px 0;
     padding: 0 20px;
@@ -81,7 +81,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   textarea{
-    width: 500px;
+    width: 100%;
     height: 150px;
     margin: 10px 0;
     padding: 20px 20px;

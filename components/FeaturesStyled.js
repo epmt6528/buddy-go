@@ -38,7 +38,8 @@ export const LINER__DIV = styled.div`
 `
 
 export const FEATURES__DIV = styled.div`
-  margin: 120px 0;
+  margin: 120px auto;
+  max-width: 1200px;
 
   ul {
     display: flex;

@@ -1,12 +1,15 @@
 import styled from 'styled-components'
-import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
-  display: flex;
-  justify-content: space-around;
-  margin: 40px 0 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px auto 120px;
+  max-width: 886px;
 
   .formDiv {
+    padding: 0 0 0 50px;
+    width: 100%;
+
     form {
       display: flex;
       flex-direction: column;

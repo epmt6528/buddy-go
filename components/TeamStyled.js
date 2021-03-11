@@ -6,6 +6,11 @@ export const DIV = styled.div`
   padding: 70px 20px;
   margin: 70px 0;
 
+  .titleDiv {
+    max-width: 886px;
+    margin: 0 auto;
+  }
+
   .memberList {
     display: flex;
     justify-content: space-around;
@@ -17,6 +22,6 @@ export const DIV = styled.div`
   }
 
   h2 {
-    margin: 0 0 42px 100px;
+    margin: 0 0 42px 0;
   }
 `
