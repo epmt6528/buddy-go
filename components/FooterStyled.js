@@ -6,6 +6,8 @@ export const DIV = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: ${color.purple};
+  width: 100%;
+  max-width: 1425px;
   padding: 10px 50px;
 
   p {
@@ -33,5 +35,9 @@ export const DIV = styled.div`
     &:hover {
       color: ${color.pink};
     }
+  }
+
+  .topButton {
+    cursor: pointer;
   }
 `

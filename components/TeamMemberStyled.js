@@ -5,13 +5,13 @@ export const DIV = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`
 
-export const H3 = styled.h3`
-  text-align: center;
-`
+  h3 {
+    text-align: center;
+  }
 
-export const P = styled.p`
-  text-align: center;
-  margin: 5px;
+  p {
+    text-align: center;
+    margin: 5px;
+  }
 `

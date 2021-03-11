@@ -1,77 +1,68 @@
 import Image from 'next/image'
 
-import {
-  SCREENDIV,
-  TEXTDIV,
-  H1,
-  SPAN,
-  P,
-  LINERDIV,
-  LINERH1,
-  LINERSPAN,
-  FEATURESDIV,
-  FEATURESUL,
-  FEATURES__P,
-} from './FeaturesStyled'
+import { DIV, SCREEN__DIV, LINER__DIV, FEATURES__DIV } from './FeaturesStyled'
 
 const Features = () => {
   return (
-    <>
-      <SCREENDIV>
-        <TEXTDIV>
-          <H1>
-            A social media app <br /> <SPAN>exclusive for pets</SPAN>
-          </H1>
-          <P>
+    <DIV>
+      {/* Top Mockscreen Part */}
+      <SCREEN__DIV>
+        <div className="screenDiv__textDiv">
+          <h2 className="global__areaTitle">
+            A social media app <br /> <span>exclusive for pets</span>
+          </h2>
+          <p className="global__areaDescription">
             Are you a pet lover? Buddy, Go! is a mobile app made for you. Is easy to create a
             profile for your pet and build connections, meet new friends, find tips for cool
             pet-friendly places, and even find a home for a rescued buddy.
-          </P>
-        </TEXTDIV>
+          </p>
+        </div>
 
         <Image src="/img/Features/appScreen.png" width={414} height={360} alt="Buddy, Go! screen" />
-      </SCREENDIV>
+      </SCREEN__DIV>
 
-      <LINERDIV>
+      {/* Yello Liner Part */}
+      <LINER__DIV id="features">
         <Image src="/img/Features/yellowLiner.png" width={1920} height={247} />
-        <LINERH1>
-          Buddy, Go! <LINERSPAN>It's free, local and super easy!</LINERSPAN>
-        </LINERH1>
-      </LINERDIV>
+        <h2 className="global__areaTitle">
+          Buddy, Go! <span>It's free, local and super easy!</span>
+        </h2>
+      </LINER__DIV>
 
-      <FEATURESDIV>
-        <FEATURESUL>
+      {/* Features Part */}
+      <FEATURES__DIV>
+        <ul>
           <li>
             <Image src="/img/Features/getSocial.png" width={226} height={488} />
-            <FEATURES__P>
+            <p>
               Share tips and fun places to go with your pets, learn about how to prepare healthy
               meal for chubby buddies, and much more.
-            </FEATURES__P>
+            </p>
           </li>
           <li>
             <Image src="/img/Features/sharePhotos.png" width={226} height={488} />
-            <FEATURES__P>
+            <p>
               Share photos and have fun! Check what and where your friends and their pets are doing,
               and get inspired for your next day off.
-            </FEATURES__P>
+            </p>
           </li>
           <li>
             <Image src="/img/Features/makeFriends.png" width={226} height={488} />
-            <FEATURES__P>
+            <p>
               Follow other pets, check their profiles and make new friends. Have fun chatting and
               commenting on buddies cool photos.
-            </FEATURES__P>
+            </p>
           </li>
           <li>
             <Image src="/img/Features/adoptBuddy.png" width={226} height={488} />
-            <FEATURES__P>
+            <p>
               How about adopting a rescued pet and help the community? Check the “Be my Buddy” feed
               and get to know your new furry friend.
-            </FEATURES__P>
+            </p>
           </li>
-        </FEATURESUL>
-      </FEATURESDIV>
-    </>
+        </ul>
+      </FEATURES__DIV>
+    </DIV>
   )
 }
 

@@ -1,12 +1,13 @@
 import TeamMember from './TeamMember'
 
-import { OUTER__DIV, DIV, H1 } from './TeamStyled'
+import { DIV } from './TeamStyled'
 
 const Team = () => {
   return (
-    <OUTER__DIV>
-      <H1>Our Team</H1>
-      <DIV>
+    <DIV id="team">
+      <h2 className="global__areaTitle">Our Team</h2>
+
+      <div className="memberList">
         <TeamMember
           pictureName="gustavoPalladini"
           firstName="Gustavo"
@@ -50,8 +51,8 @@ const Team = () => {
           lastName="Murai"
           position="Developer"
         />
-      </DIV>
-    </OUTER__DIV>
+      </div>
+    </DIV>
   )
 }
 

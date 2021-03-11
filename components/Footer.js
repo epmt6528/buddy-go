@@ -13,24 +13,30 @@ const Footer = () => {
 
       <ul>
         <li>
-          <Link href="/">Features</Link>
+          <Link href="#features">Features</Link>
         </li>
         <li>
-          <Link href="/">Download</Link>
+          <Link href="#download">Download</Link>
         </li>
         <li>
-          <Link href="/">Our Team</Link>
+          <Link href="#team">Our Team</Link>
         </li>
         <li>
           <Link href="/">Blog</Link>
         </li>
         <li>
-          <Link href="/">Contact</Link>
+          <Link href="#contact">Contact</Link>
         </li>
       </ul>
 
       <Link href="/">
-        <Image src="/img/Footer/topButton.png" width={42} height={46} alt="Top" />
+        <Image
+          src="/img/Footer/topButton.png"
+          width={42}
+          height={46}
+          alt="Top"
+          className="topButton"
+        />
       </Link>
     </DIV>
   )

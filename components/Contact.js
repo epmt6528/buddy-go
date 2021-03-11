@@ -2,13 +2,13 @@ import { DIV } from './ContactStyled'
 
 const Contact = () => {
   return (
-    <DIV>
-      <div className="textDiv">
-        <h1>
+    <DIV id="contact">
+      <div>
+        <h2 className="global__areaTitle">
           We Want to Hear <br />
           <span>From You</span>
-        </h1>
-        <p>
+        </h2>
+        <p className="global__areaDescription">
           Our team is here to help and answer any question you might have. We look forward to hear
           from you.
         </p>

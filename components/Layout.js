@@ -6,7 +6,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <Meta />
-      <Header />
+      <Header
+        pictureName="homeHero"
+        heading1="connecting"
+        heading2="pet lovers"
+        paragraph="Buddy,Go! helps you meet other pet enthusiasts around and make new friends."
+      />
       <div>
         <main>{children}</main>
       </div>

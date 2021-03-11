@@ -1,21 +1,23 @@
 import Nav from './Nav'
 
-import { DIV, TEXTDIV, H1, SPAN, INNERDIV, P } from './HeaderStyled'
+import { DIV } from './HeaderStyled'
 
-const Header = () => {
+const Header = (props) => {
+  const { pictureName, heading1, heading2, paragraph } = props
+
   return (
-    <DIV>
-      <INNERDIV>
+    <DIV style={{ backgroundImage: `url('/img/hero/${pictureName}.png')` }}>
+      <div className="innerDiv">
         <Nav />
 
-        <TEXTDIV>
-          <H1>
-            Connecting <br />
-            <SPAN>Pet Lovers</SPAN>
-          </H1>
-          <P>Buddy,Go! helps you meet other pet enthusiasts around and make new friends.</P>
-        </TEXTDIV>
-      </INNERDIV>
+        <div className="textDiv">
+          <h1>
+            {heading1} <br />
+            <span>{heading2}</span>
+          </h1>
+          <p>{paragraph}</p>
+        </div>
+      </div>
     </DIV>
   )
 }

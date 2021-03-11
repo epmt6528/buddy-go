@@ -11,10 +11,37 @@ export const color = {
 }
 
 export const GlobalStyles = createGlobalStyle`
+  body{
+
+    #__next{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
   h1 {
     color: ${color.yellow};
     font-family: 'SF Compact Rounded';
     font-size: 4rem;
+  }
+
+  ${'' /* Text Area for each block */}
+  h2.global__areaTitle{
+    color: ${color.purple};
+    font-family: 'SF Compact Rounded';
+    font-size: 3.5rem;
+    margin: 0;
+    line-height: 1.1;
+
+    span{
+      color: ${color.gray};
+    }
+  }
+
+  p.global__areaDescription{
+    max-width: 400px;
+    margin-left: 25px;
   }
 
   h3{
@@ -35,6 +62,11 @@ export const GlobalStyles = createGlobalStyle`
     color: ${color.white};
     font-family: 'SF Compact Rounded';
     font-size: 1.25rem;
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
   }
 
   input{
@@ -67,5 +99,6 @@ export const GlobalStyles = createGlobalStyle`
     border-radius: 55px;
     color: ${color.white};
     font-size: 1.1rem;
+    cursor: pointer;
   }
 `

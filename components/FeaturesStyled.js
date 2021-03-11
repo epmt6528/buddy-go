@@ -1,61 +1,79 @@
 import styled from 'styled-components'
-import { color } from '../pages/ThemeConfig'
 
-export const SCREENDIV = styled.div`
+export const DIV = styled.div`
+  max-width: 1425px;
+`
+
+export const SCREEN__DIV = styled.div`
   margin: 70px 0 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+
+  .screen__div {
+    max-width: 540px;
+    position: relative;
+    right: -60px;
+    top: -35px;
+    z-index: 2;
+  }
+
+  h2 {
+    margin-top: 30px !important;
+  }
 `
 
-export const TEXTDIV = styled.div`
-  max-width: 540px;
-  position: relative;
-  right: -60px;
-  top: -35px;
-  z-index: 2;
-`
-
-export const H1 = styled.h1`
-  color: ${color.purple};
-  margin-bottom: 0;
-`
-
-export const SPAN = styled.span`
-  color: ${color.gray};
-`
-
-export const P = styled.p`
-  max-width: 400px;
-  margin-left: 25px;
-`
-
-export const LINERDIV = styled.div`
+export const LINER__DIV = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`
-export const LINERH1 = styled.h1`
-  position: absolute;
-  color: ${color.purple};
-`
-export const LINERSPAN = styled.span`
-  font-family: 'SF Compact Rounded Ultralight';
-  color: ${color.gray};
-  margin: 0 30px;
+
+  h2 {
+    position: absolute;
+
+    span {
+      font-family: 'SF Compact Rounded Ultralight';
+      margin: 0 30px;
+    }
+  }
 `
 
-export const FEATURESDIV = styled.div`
+export const FEATURES__DIV = styled.div`
   margin: 120px 0;
-`
 
-export const FEATURESUL = styled.ul`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-`
-export const FEATURES__P = styled.p`
-  max-width: 226px;
-  margin: 30px 0;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      p {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        transition: width 0.4s, opacity 0.1s 0.4s;
+        overflow: hidden;
+      }
+    }
+
+    :hover {
+      li {
+        filter: grayscale(80%);
+        transition: filter 0.5s;
+
+        :hover {
+          filter: grayscale(0%);
+
+          p {
+            margin-left: 10px;
+            width: 226px;
+            height: 150px;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
 `
