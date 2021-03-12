@@ -8,6 +8,7 @@ export const DIV = styled.div`
   width: 100%;
   max-width: 1425px;
   height: 440px;
+  margin: 0 auto;
 
   .innerDiv {
     position: relative;
