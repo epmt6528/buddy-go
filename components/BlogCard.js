@@ -1,23 +1,23 @@
+import Link from 'next/link'
 import Image from 'next/image'
 
 import { DIV } from './BlogCardStyled'
 
-const BlogCard = () => {
+const BlogCard = ({ post }) => {
   return (
-    <DIV>
-      <div className="imageDiv">
-        <div className="tag">
-          <h4>Buddy Tips</h4>
+    <Link href="/posts/[id]" as={`posts/`}>
+      <DIV>
+        <div className="imageDiv">
+          <div className="tag">
+            <h4>{post.tag}</h4>
+          </div>
+          <Image objectFit="cover" src={`/img/Blog/${post.postPicture}`} width={588} height={284} />
         </div>
-        <Image objectFit="cover" src="/img/Blog/blogPicture.jpg" width={588} height={284} />
-      </div>
 
-      <h3>How Buddy, Go! Helps Dog Owners to Stay Connected and Build a Community</h3>
-      <p>
-        This article explain how can get the most from BuddyGo features, such as follow, chat and
-        comments and more.
-      </p>
-    </DIV>
+        <h3>{post.title}</h3>
+        <p>{post.excerpt}</p>
+      </DIV>
+    </Link>
   )
 }
 

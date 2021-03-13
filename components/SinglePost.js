@@ -1,8 +1,9 @@
+import { server } from '../../../config'
 import Image from 'next/image'
 
 import { DIV } from './SinglePostStyled'
 
-const SinglePost = () => {
+const SinglePost = ({ post }) => {
   return (
     <DIV>
       <div className="postHeaderDiv">
@@ -51,3 +52,17 @@ const SinglePost = () => {
 }
 
 export default SinglePost
+
+export const getStaticPaths = async () => {
+  const res = await fetch(`${server}/api/posts/`)
+
+  const posts = await res.json()
+
+  const ids = posts.map((article) => article.id)
+  const paths = ids.map((id) => ({ params: { id: id.toString() } }))
+
+  return {
+    paths,
+    fallback: false,
+  }
+}

@@ -2,7 +2,7 @@ import BlogCard from './BlogCard'
 
 import { DIV } from './BlogStyled'
 
-const Blog = () => {
+const Blog = ({ posts }) => {
   return (
     <DIV id="blog">
       <div>
@@ -10,8 +10,8 @@ const Blog = () => {
       </div>
 
       <div className="cardsDiv">
-        <BlogCard />
-        <BlogCard />
+        <BlogCard post={posts[0]} />
+        <BlogCard post={posts[1]} />
       </div>
     </DIV>
   )

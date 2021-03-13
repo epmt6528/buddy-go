@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
   display: grid;
@@ -14,6 +15,13 @@ export const DIV = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+
+    .errorMessages {
+      margin: -10px 0 0 20px;
+      font-size: 1rem;
+      color: ${color.pink};
+      align-self: flex-start;
     }
 
     button {
