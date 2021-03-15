@@ -62,6 +62,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${color.white};
     font-family: 'SF Compact Rounded';
     font-size: 1.25rem;
+    cursor: pointer;
   }
 
   ul{

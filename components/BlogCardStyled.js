@@ -3,6 +3,12 @@ import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
   margin: 10px;
+  cursor: pointer;
+  transition: transform 0.25s;
+
+  :hover {
+    transform: scale(1.05);
+  }
 
   .imageDiv {
     position: relative;

@@ -7,6 +7,7 @@ export const DIV = styled.div`
   background-color: ${color.purple};
   max-width: 1425px;
   margin: 0 auto;
+  cursor: pointer;
 
   .navCardDiv {
     padding: 50px 190px;
@@ -15,9 +16,16 @@ export const DIV = styled.div`
     flex-direction: column;
     align-items: center;
 
+    :hover {
+      h3 {
+        transform: scale(1.2);
+      }
+    }
+
     h3 {
       color: ${color.white};
       text-align: center;
+      transition: transform 0.25s;
     }
 
     a {

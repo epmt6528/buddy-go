@@ -5,7 +5,7 @@ import { DIV } from './BlogCardStyled'
 
 const BlogCard = ({ post }) => {
   return (
-    <Link href="/posts/[id]" as={`posts/`}>
+    <Link href="/blog/[id]" as={`blog/${post.id}`}>
       <DIV>
         <div className="imageDiv">
           <div className="tag">
