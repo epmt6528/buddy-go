@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { device } from '../styles/mediaQueries'
 import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
@@ -12,6 +13,7 @@ export const DIV = styled.div`
 
   .innerDiv {
     position: relative;
+    margin: 0 auto;
     padding: 0 100px;
     width: 100%;
     height: 440px;
@@ -20,11 +22,21 @@ export const DIV = styled.div`
 
   .textDiv {
     position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
     z-index: 1;
-    right: 8rem;
-    top: 5.5rem;
+    margin: auto;
+    text-align: center;
     max-width: 400px;
-    text-align: right;
+
+    @media ${device.laptop} {
+      top: auto;
+      left: auto;
+      right: 8rem;
+      top: 5.5rem;
+      text-align: right;
+    }
   }
 
   h1 {

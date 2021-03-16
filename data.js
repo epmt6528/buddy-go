@@ -1,7 +1,7 @@
 export const posts = [
   {
     id: '1',
-    title: 'How Buddy, Go! Helps Dog Owners to Stay Connected and Build a Community',
+    title: 'How Buddy, Go! Helps Dog Owners Stay Connected and BuildCommunity',
     excerpt:
       'This article explain how can get the most from BuddyGo features, such as follow, chat and comments and more.',
     author: 'Marina Lemos',

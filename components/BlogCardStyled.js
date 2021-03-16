@@ -24,7 +24,7 @@ export const DIV = styled.div`
     top: 20px;
     left: 20px;
 
-    width: 100px;
+    padding: 0 15px;
     height: 30px;
     border-radius: 10px;
     color: ${color.purple};

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { device } from '../styles/mediaQueries'
 
 export const DIV = styled.div`
   background-image: url('/img/Team/background.png');
@@ -12,9 +13,20 @@ export const DIV = styled.div`
   }
 
   .memberList {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media ${device.tablet} {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media ${device.laptop} {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media ${device.laptopL} {
+      grid-template-columns: repeat(7, 1fr);
+    }
 
     .teamMemberDiv:nth-child(2n) {
       margin-top: 100px;

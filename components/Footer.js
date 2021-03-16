@@ -5,39 +5,43 @@ import { DIV } from './FooterStyled'
 const Footer = () => {
   return (
     <DIV>
-      <Image src="/img/logo/footerLogo.png" width={160} height={40} alt="Buddy, Go!" />
+      <div>
+        <Image src="/img/logo/footerLogo.png" width={160} height={40} alt="Buddy, Go!" />
 
-      <p>
-        Developed by <span>Team Rocket</span>
-      </p>
+        <p>
+          Developed by <span>Team Rocket</span>
+        </p>
+      </div>
 
-      <ul>
-        <li>
-          <Link href="#features">Features</Link>
-        </li>
-        <li>
-          <Link href="#download">Download</Link>
-        </li>
-        <li>
-          <Link href="#team">Our Team</Link>
-        </li>
-        <li>
-          <Link href="#blog">Blog</Link>
-        </li>
-        <li>
-          <Link href="#contact">Contact</Link>
-        </li>
-      </ul>
+      <div>
+        <ul>
+          <li>
+            <Link href="#features">Features</Link>
+          </li>
+          <li>
+            <Link href="#download">Download</Link>
+          </li>
+          <li>
+            <Link href="#team">Our Team</Link>
+          </li>
+          <li>
+            <Link href="#blog">Blog</Link>
+          </li>
+          <li>
+            <Link href="#contact">Contact</Link>
+          </li>
+        </ul>
 
-      <Link href="/">
-        <Image
-          src="/img/Footer/topButton.png"
-          width={42}
-          height={46}
-          alt="Top"
-          className="topButton"
-        />
-      </Link>
+        <Link href="/">
+          <Image
+            src="/img/Footer/topButton.png"
+            width={42}
+            height={46}
+            alt="Top"
+            className="topButton"
+          />
+        </Link>
+      </div>
     </DIV>
   )
 }

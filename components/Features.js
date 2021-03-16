@@ -33,28 +33,40 @@ const Features = () => {
       <FEATURES__DIV>
         <ul>
           <li>
-            <Image src="/img/Features/getSocial.png" width={226} height={488} />
+            <div className="image">
+              <Image src="/img/Features/getSocial.png" width={226} height={488} className="image" />
+            </div>
+
             <p>
               Share tips and fun places to go with your pets, learn about how to prepare healthy
               meal for chubby buddies, and much more.
             </p>
           </li>
           <li>
-            <Image src="/img/Features/sharePhotos.png" width={226} height={488} />
+            <div className="image">
+              <Image src="/img/Features/sharePhotos.png" width={226} height={488} />
+            </div>
+
             <p>
               Share photos and have fun! Check what and where your friends and their pets are doing,
               and get inspired for your next day off.
             </p>
           </li>
           <li>
-            <Image src="/img/Features/makeFriends.png" width={226} height={488} />
+            <div className="image">
+              <Image src="/img/Features/makeFriends.png" width={226} height={488} />
+            </div>
+
             <p>
               Follow other pets, check their profiles and make new friends. Have fun chatting and
               commenting on buddies cool photos.
             </p>
           </li>
           <li>
-            <Image src="/img/Features/adoptBuddy.png" width={226} height={488} />
+            <div className="image">
+              <Image src="/img/Features/adoptBuddy.png" width={226} height={488} />
+            </div>
+
             <p>
               How about adopting a rescued pet and help the community? Check the “Be my Buddy” feed
               and get to know your new furry friend.

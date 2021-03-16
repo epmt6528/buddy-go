@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { device } from '../styles/mediaQueries'
 import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
@@ -9,9 +10,25 @@ export const DIV = styled.div`
   width: 100%;
   max-width: 1425px;
   padding: 10px 50px;
+  flex-direction: column;
+
+  @media ${device.laptop} {
+    flex-direction: row;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media ${device.tablet} {
+      flex-direction: row;
+    }
+  }
 
   p {
     color: ${color.white};
+    margin-left: 20px;
 
     span {
       font-family: 'SF Compact Rounded';
@@ -23,9 +40,20 @@ export const DIV = styled.div`
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    @media ${device.tablet} {
+      margin-right: 10px;
+      flex-direction: row;
+    }
 
     li {
-      margin: 0 10px;
+      margin: 10px 0;
+
+      @media ${device.tablet} {
+        margin: 0 7px;
+      }
     }
   }
 

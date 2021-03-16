@@ -1,16 +1,19 @@
 import styled from 'styled-components'
+import { device } from '../styles/mediaQueries'
 import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
-  margin: 20px 50px;
+  display: none;
 
-  display: flex;
-  justify-content: space-between;
-
-  position: absolute;
-  right: 0;
-  left: 0;
-  z-index: 2;
+  @media ${device.laptop} {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 2;
+  }
 
   .logo {
     cursor: pointer;
@@ -34,6 +37,63 @@ export const DIV = styled.div`
 
     &:hover {
       color: ${color.pink};
+    }
+  }
+`
+
+export const MOBILEMENU = styled.div`
+  @media ${device.laptop} {
+    display: none;
+  }
+
+  .mobileMenuButton {
+    position: fixed;
+    left: calc(50% - 100px / 2);
+    background-color: ${color.purple};
+    padding: 20px 20px 10px;
+    border-radius: 50% 50% 0 0;
+    z-index: 5;
+    bottom: 0;
+    transition: bottom 0.5s;
+
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  .mobileMenu {
+    background-color: ${color.purple};
+    width: 100vw;
+
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    transition: bottom 0.5s;
+  }
+
+  .closed {
+    bottom: -76px;
+  }
+
+  .opened {
+    bottom: 0;
+
+    .mobileMenuButton {
+      bottom: 76px;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    a {
+      transition: color 0.5s;
+
+      &:hover {
+        color: ${color.pink};
+      }
     }
   }
 `
