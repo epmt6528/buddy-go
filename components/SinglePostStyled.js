@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-import { device } from '../styles/mediaQueries'
-import { color } from '../pages/ThemeConfig'
+import { color } from '../styles/ThemeConfig'
 
 export const DIV = styled.div`
   display: flex;
