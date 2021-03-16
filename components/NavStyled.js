@@ -73,21 +73,24 @@ export const MOBILEMENU = styled.div`
   }
 
   .closed {
-    bottom: -76px;
+    bottom: -172px;
   }
 
   .opened {
     bottom: 0;
 
     .mobileMenuButton {
-      bottom: 76px;
+      bottom: 140px;
     }
   }
 
   ul {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
     a {
       transition: color 0.5s;
 

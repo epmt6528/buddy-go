@@ -5,9 +5,11 @@ import { DIV } from './DownloadStyled'
 const Download = () => {
   return (
     <DIV id="download">
-      <Image src="/img/Download/downloadDog.png" width={351} height={573} alt="Husky dog" />
+      <div className="huskyImg">
+        <Image src="/img/Download/downloadDog.png" width={351} height={573} alt="Husky dog" />
+      </div>
 
-      <div>
+      <div className="textDiv">
         <h2 className="global__areaTitle">
           Download Now <br /> <span>Have Fun!</span>
         </h2>

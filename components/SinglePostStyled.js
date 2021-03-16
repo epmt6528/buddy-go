@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { device } from '../styles/mediaQueries'
 import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
@@ -7,7 +8,8 @@ export const DIV = styled.div`
   align-items: center;
 
   .postHeaderDiv {
-    padding: 50px 400px;
+    max-width: 920px;
+    padding: 50px 0;
 
     h1 {
       color: ${color.purple};
@@ -32,7 +34,8 @@ export const DIV = styled.div`
   }
 
   .postBodyDiv {
-    padding: 50px 400px;
+    max-width: 920px;
+    padding: 50px 0;
 
     p {
       line-height: 1.5;

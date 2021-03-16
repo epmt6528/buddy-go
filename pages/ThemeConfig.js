@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { device } from '../styles/mediaQueries'
 
 export const color = {
   black: '#000000',
@@ -33,6 +34,11 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 3.5rem;
     margin: 0;
     line-height: 1.1;
+    text-align: center;
+
+    @media ${device.laptop} {
+      text-align: left;
+    }
 
     span{
       color: ${color.gray};
@@ -41,7 +47,13 @@ export const GlobalStyles = createGlobalStyle`
 
   p.global__areaDescription{
     max-width: 400px;
-    margin-left: 25px;
+    text-align: center;
+    margin: 30px auto;
+
+    @media ${device.laptop} {
+      text-align: left;
+      margin: 15px 0 0 25px;
+    }
   }
 
   h3{

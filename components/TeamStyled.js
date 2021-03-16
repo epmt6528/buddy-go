@@ -13,23 +13,33 @@ export const DIV = styled.div`
   }
 
   .memberList {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-flow: row wrap;
 
-    @media ${device.tablet} {
-      grid-template-columns: repeat(3, 1fr);
+    .teamMemberDiv {
+      flex: 1 0 50%;
+
+      :nth-child(2n) {
+        margin-top: 100px;
+      }
+
+      @media ${device.tablet} {
+        flex: 1 0 25%;
+      }
+
+      @media ${device.laptop} {
+        flex: 1;
+      }
     }
 
-    @media ${device.laptop} {
-      grid-template-columns: repeat(4, 1fr);
-    }
+    .spaceHolder {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
 
-    @media ${device.laptopL} {
-      grid-template-columns: repeat(7, 1fr);
-    }
-
-    .teamMemberDiv:nth-child(2n) {
-      margin-top: 100px;
+      @media ${device.laptop} {
+        display: none;
+      }
     }
   }
 

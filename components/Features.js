@@ -23,9 +23,11 @@ const Features = () => {
 
       {/* Yello Liner Part */}
       <LINER__DIV id="features">
-        <Image src="/img/Features/yellowLiner.png" width={1920} height={247} />
         <h2 className="global__areaTitle">
-          Buddy, Go! <span>It's free, local and super easy!</span>
+          Buddy, Go!{' '}
+          <span>
+            <div>It's free, </div> <div>local</div> <div>and super easy!</div>
+          </span>
         </h2>
       </LINER__DIV>
 
@@ -34,7 +36,7 @@ const Features = () => {
         <ul>
           <li>
             <div className="image">
-              <Image src="/img/Features/getSocial.png" width={226} height={488} className="image" />
+              <Image src="/img/Features/getSocial.png" width={174} height={366} className="image" />
             </div>
 
             <p>
@@ -44,7 +46,7 @@ const Features = () => {
           </li>
           <li>
             <div className="image">
-              <Image src="/img/Features/sharePhotos.png" width={226} height={488} />
+              <Image src="/img/Features/sharePhotos.png" width={174} height={366} />
             </div>
 
             <p>
@@ -54,7 +56,7 @@ const Features = () => {
           </li>
           <li>
             <div className="image">
-              <Image src="/img/Features/makeFriends.png" width={226} height={488} />
+              <Image src="/img/Features/makeFriends.png" width={174} height={366} />
             </div>
 
             <p>
@@ -64,7 +66,7 @@ const Features = () => {
           </li>
           <li>
             <div className="image">
-              <Image src="/img/Features/adoptBuddy.png" width={226} height={488} />
+              <Image src="/img/Features/adoptBuddy.png" width={170} height={366} />
             </div>
 
             <p>

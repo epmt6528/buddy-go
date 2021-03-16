@@ -12,7 +12,7 @@ const Contact = ({ submitForm }) => {
 
   return (
     <DIV id="contact">
-      <div className="textDiv">
+      <div>
         <h2 className="global__areaTitle">
           We Want to
           <br />

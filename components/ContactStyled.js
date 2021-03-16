@@ -1,15 +1,27 @@
 import styled from 'styled-components'
+import { device } from '../styles/mediaQueries'
 import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template: 1fr 1fr / none;
+  align-items: center;
+
   margin: 40px auto 120px;
+  padding: 0 5px;
   max-width: 886px;
 
+  @media ${device.laptop} {
+    grid-template: none / 1fr 1fr;
+    align-items: start;
+  }
+
   .formDiv {
-    padding: 0 0 0 50px;
     width: 100%;
+
+    @media ${device.laptop} {
+      padding: 0 0 0 50px;
+    }
 
     form {
       display: flex;

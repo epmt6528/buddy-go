@@ -3,7 +3,6 @@ import { device } from '../styles/mediaQueries'
 import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
-  display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: ${color.purple};
@@ -12,7 +11,10 @@ export const DIV = styled.div`
   padding: 10px 50px;
   flex-direction: column;
 
+  display: none;
+
   @media ${device.laptop} {
+    display: flex;
     flex-direction: row;
   }
 

@@ -1,5 +1,5 @@
 import TeamMember from './TeamMember'
-
+import Image from 'next/image'
 import { DIV } from './TeamStyled'
 
 const Team = () => {
@@ -53,6 +53,11 @@ const Team = () => {
           lastName="Murai"
           position="Developer"
         />
+
+        {/* Space holde */}
+        <div className={'teamMemberDiv' + ' ' + 'spaceHolder'}>
+          <Image src={`/img/logo/smallLogoBlack.png`} width={127} height={127} />
+        </div>
       </div>
     </DIV>
   )

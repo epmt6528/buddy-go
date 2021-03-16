@@ -34,20 +34,35 @@ export const LINER__DIV = styled.div`
   justify-content: center;
   align-items: center;
 
+  width: 100%;
+  padding: 40px 0;
+  background-image: url('/img/Features/yellowLiner.png');
+
   h2 {
-    position: absolute;
     display: flex;
     flex-direction: column;
 
     @media ${device.laptop} {
-      display: inline;
+      flex-direction: row;
     }
 
     span {
       font-family: 'SF Compact Rounded Ultralight';
 
+      display: flex;
+      flex-flow: column nowrap;
+
       @media ${device.laptop} {
-        margin: 0 30px;
+        flex-flow: row nowrap;
+        margin-left: 20px;
+      }
+
+      div {
+        text-align: left;
+
+        @media ${device.laptop} {
+          margin: 0 15px 0 0;
+        }
       }
     }
   }
@@ -61,10 +76,10 @@ export const FEATURES__DIV = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    flex-flow: row wrap;
 
     @media ${device.laptop} {
-      flex-direction: row;
+      flex-flow: row nowrap;
 
       :hover {
         li {
@@ -87,11 +102,15 @@ export const FEATURES__DIV = styled.div`
 
     li {
       display: flex;
+      flex-flow: column nowrap;
       align-items: center;
-      margin: 10px;
+      padding: 10px;
+      flex-basis: 50%;
 
       @media ${device.laptop} {
         margin: 0;
+        flex-flow: row nowrap;
+        flex-basis: auto;
       }
 
       .image {
@@ -103,7 +122,8 @@ export const FEATURES__DIV = styled.div`
       }
 
       p {
-        margin: 0 20px;
+        width: 250px;
+        margin: 20px;
 
         @media ${device.laptop} {
           margin: 0;

@@ -1,13 +1,19 @@
 import styled from 'styled-components'
+import { device } from '../styles/mediaQueries'
 import { color } from '../pages/ThemeConfig'
 
 export const DIV = styled.div`
   margin: 10px;
+  padding: 20px 50px;
   cursor: pointer;
   transition: transform 0.25s;
 
   :hover {
     transform: scale(1.05);
+  }
+
+  @media ${device.tablet} {
+    padding: 0;
   }
 
   .imageDiv {

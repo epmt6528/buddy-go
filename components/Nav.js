@@ -49,8 +49,8 @@ const Nav = () => {
           <div className="mobileMenuButton" onClick={toggleMobileMenu}>
             <Image
               src="/img/logo/smallLogo.png"
-              width={80}
-              height={80}
+              width={60}
+              height={60}
               alt="Buddy, Go!"
               className="logo"
             />
