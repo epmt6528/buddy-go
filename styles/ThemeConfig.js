@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { device } from '../styles/mediaQueries'
+import { device } from './mediaQueries'
 
 export const color = {
   black: '#000000',
