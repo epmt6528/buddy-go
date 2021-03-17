@@ -33,7 +33,7 @@ export const getStaticProps = async (context) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/apiq/posts/`, {
+  const res = await fetch(`${server}/api/posts/`, {
     method: 'GET',
     headers: {
       'User-Agent':
