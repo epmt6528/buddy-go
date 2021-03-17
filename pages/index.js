@@ -25,7 +25,15 @@ export default function Home({ posts }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/posts`)
+  const res = await fetch(`${server}/api/posts`).then(async (response) => {
+    try {
+      const data = await response.json()
+      console.log('response data?', data)
+    } catch (error) {
+      console.log('Error happened here!')
+      console.error(error)
+    }
+  })
 
   const posts = await res.json()
 
