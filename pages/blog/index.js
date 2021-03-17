@@ -17,17 +17,20 @@ export default function BuddyNews({ posts }) {
 }
 
 export const getStaticProps = async () => {
-  const posts = await fetch(`${server}/api/posts`).then(async (response) => {
-    try {
-      const res = await response.json()
-      console.log('response data?', res)
+  const res = await fetch(`${server}/api/posts`)
+  const posts = await res.json()
 
-      return res
-    } catch (error) {
-      console.log('Error happened here!')
-      console.error(error)
-    }
-  })
+  // .then(async (response) => {
+  //   try {
+  //     const res = await response.json()
+  //     console.log('response data?', res)
+
+  //     return res
+  //   } catch (error) {
+  //     console.log('Error happened here!')
+  //     console.error(error)
+  //   }
+  // })
 
   return {
     props:
