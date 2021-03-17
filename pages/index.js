@@ -31,8 +31,9 @@ export const getStaticProps = async () => {
   console.log(posts)
 
   return {
-    props: {
-      posts,
-    },
+    props:
+      {
+        posts,
+      } || {},
   }
 }
