@@ -17,7 +17,15 @@ export default function BuddyNews({ posts }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/posts`)
+  const res = await fetch(`${server}/api/posts`, {
+    method: 'GET',
+    headers: {
+      // update with your user-agent
+      'User-Agent':
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+      Accept: 'application/json; charset=UTF-8',
+    },
+  })
   const posts = await res.json()
 
   // .then(async (response) => {
