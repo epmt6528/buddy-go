@@ -6,7 +6,7 @@ const PostList = ({ posts }) => {
   return (
     <DIV>
       {posts.map((post) => (
-        <BlogCard post={post} />
+        <BlogCard post={post} key={post.id} />
       ))}
     </DIV>
   )
