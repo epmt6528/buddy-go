@@ -3,6 +3,8 @@ import NavWhite from '../../../components/NavWhite'
 import PostNav from '../../../components/PostNav'
 import SinglePost from '../../../components/SinglePost'
 
+import { postsList } from '../../../data'
+
 export default function SinglePostPage({ post }) {
   return (
     <div>
@@ -14,16 +16,18 @@ export default function SinglePostPage({ post }) {
 }
 
 export const getStaticProps = async (context) => {
-  const res = await fetch(`${server}/api/posts/${context.params.id}`, {
-    method: 'GET',
-    headers: {
-      'User-Agent':
-        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
-      Accept: 'application/json; charset=UTF-8',
-    },
-  })
+  // const res = await fetch(`${server}/api/posts/${context.params.id}`, {
+  //   method: 'GET',
+  //   headers: {
+  //     'User-Agent':
+  //       'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  //     Accept: 'application/json; charset=UTF-8',
+  //   },
+  // })
 
-  const post = await res.json()
+  const res = postsList[context.params.id - 1]
+
+  const post = res
 
   return {
     props: {
@@ -33,12 +37,10 @@ export const getStaticProps = async (context) => {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/posts`)
+  // const res = await fetch(`${server}/api/posts`)
+  // const posts = await res.json()
 
-  const posts = await res.json()
-  console.log(posts)
-
-  const ids = posts.map((post) => post.id)
+  const ids = postsList.map((post) => post.id)
   const paths = ids.map((id) => ({ params: { id: id.toString() } }))
 
   return {

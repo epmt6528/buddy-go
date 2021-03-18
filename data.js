@@ -1,4 +1,4 @@
-export const posts = [
+export const postsList = [
   {
     id: '1',
     title: 'How Buddy, Go! Helps Dog Owners Stay Connected and Build Community',
