@@ -43,6 +43,7 @@ export const getStaticPaths = async () => {
   })
 
   const posts = await res.json()
+  console.log(posts)
 
   const ids = posts.map((post) => post.id)
   const paths = ids.map((id) => ({ params: { id: id.toString() } }))
