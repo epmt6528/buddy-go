@@ -1,7 +1,7 @@
-import { posts } from '../../../data'
+import { postsList } from '../../../data'
 
 export default function handler({ query: { id } }, res) {
-  const filtered = posts.filter((post) => post.id === id)
+  const filtered = postsList.filter((post) => post.id === id)
 
   if (filtered.length > 0) {
     res.status(200).json(filtered[0])
