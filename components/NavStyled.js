@@ -80,7 +80,7 @@ export const MOBILEMENU = styled.div`
     bottom: 0;
 
     .mobileMenuButton {
-      bottom: 140px;
+      bottom: 171px;
     }
   }
 

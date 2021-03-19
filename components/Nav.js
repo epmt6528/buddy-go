@@ -28,19 +28,19 @@ const Nav = () => {
 
         <ul>
           <li>
-            <Link href="#features">Features</Link>
+            <Link href="/#features">Features</Link>
           </li>
           <li>
-            <Link href="#download">Download</Link>
+            <Link href="/#download">Download</Link>
           </li>
           <li>
-            <Link href="#team">Our Team</Link>
+            <Link href="/#team">Our Team</Link>
           </li>
           <li>
             <Link href="/blog">Blog</Link>
           </li>
           <li>
-            <Link href="#contact">Contact</Link>
+            <Link href="/#contact">Contact</Link>
           </li>
         </ul>
       </DIV>
@@ -57,19 +57,19 @@ const Nav = () => {
           </div>
           <ul>
             <li>
-              <Link href="#features">Features</Link>
+              <Link href="/#features">Features</Link>
             </li>
             <li>
-              <Link href="#download">Download</Link>
+              <Link href="/#download">Download</Link>
             </li>
             <li>
-              <Link href="#team">Our Team</Link>
+              <Link href="/#team">Our Team</Link>
             </li>
             <li>
               <Link href="/blog">Blog</Link>
             </li>
             <li>
-              <Link href="#contact">Contact</Link>
+              <Link href="/#contact">Contact</Link>
             </li>
           </ul>
         </div>
