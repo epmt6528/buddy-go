@@ -34,7 +34,7 @@ export const DIV = styled.div`
     display: flex;
 
     @media ${device.laptop} {
-      margin-right: 160px;
+      margin: 0 80px;
       flex-direction: column;
     }
 
