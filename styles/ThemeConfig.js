@@ -1,6 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 import { device } from './mediaQueries'
 
+export const globalValue = {
+  maxWidth: '1425px',
+  edgePadding: '10px',
+}
+
 export const color = {
   black: '#000000',
   white: '#ffffff',

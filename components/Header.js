@@ -1,5 +1,5 @@
 import Nav from './Nav'
-
+import Image from 'next/image'
 import { DIV } from './HeaderStyled'
 
 const Header = (props) => {
@@ -7,16 +7,16 @@ const Header = (props) => {
 
   return (
     <DIV style={{ backgroundImage: `url('/img/hero/${pictureName}.png')` }}>
-      <div className="innerDiv">
-        <Nav />
+      <Nav />
 
-        <div className="textDiv">
-          <h1>
-            {heading1} <br />
-            <span>{heading2}</span>
-          </h1>
-          <p>{paragraph}</p>
-        </div>
+      <Image src="/img/logo/mobileLogo.png" width={100} height={50} alt="Buddy, Go!" />
+
+      <div className="textDiv">
+        <h1>
+          {heading1} <br />
+          <span>{heading2}</span>
+        </h1>
+        <p>{paragraph}</p>
       </div>
     </DIV>
   )
