@@ -21,6 +21,12 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 65%;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
