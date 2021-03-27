@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { device } from '../styles/mediaQueries'
+import { globalValue } from '../styles/ThemeConfig'
 
 export const DIV = styled.div`
   display: flex;
@@ -29,8 +30,12 @@ export const DIV = styled.div`
     }
   }
 
+  .textDiv{
+    padding: 0 ${globalValue.edgePadding};
+  }
+
   .badgeDiv {
-    
+    padding: 0 ${globalValue.edgePadding};
     display: flex;
 
     @media ${device.laptop} {

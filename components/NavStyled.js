@@ -46,7 +46,6 @@ export const MOBILEMENU = styled.div`
     display: none;
   }
 
-  width: 100vw;
   background-color: ${color.purple};
 
   position: fixed;
@@ -56,7 +55,7 @@ export const MOBILEMENU = styled.div`
   bottom: 0;
 
   ul {
-    padding: 5px 10px;
+    padding: 5px 10px 20px;
 
     display: flex;
     justify-content: space-around;

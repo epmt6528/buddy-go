@@ -1,14 +1,26 @@
 import styled from 'styled-components'
-import { color } from '../styles/ThemeConfig'
+import { device } from '../styles/mediaQueries'
+import { globalValue, color } from '../styles/ThemeConfig'
 
 export const DIV = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 50px;
+
+  @media ${device.laptop} {
+    padding: 0;
+  }
+
+  .logo {
+    @media ${device.laptop} {
+      display: none !important;
+    }
+  }
 
   .postHeaderDiv {
     max-width: 920px;
-    padding: 50px 0;
+    padding: 50px ${globalValue.edgePadding};
 
     h1 {
       color: ${color.purple};
@@ -29,12 +41,12 @@ export const DIV = styled.div`
   }
 
   img {
-    border-radius: 50px;
+    width: 100%;
   }
 
   .postBodyDiv {
     max-width: 920px;
-    padding: 50px 0;
+    padding: 50px ${globalValue.edgePadding} 100px;
 
     p {
       line-height: 1.5;

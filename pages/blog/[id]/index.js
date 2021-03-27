@@ -10,7 +10,7 @@ export default function SinglePostPage({ post }) {
     <div>
       <NavWhite />
       <SinglePost post={post} />
-      <PostNav />
+      {/* <PostNav /> */}
     </div>
   )
 }

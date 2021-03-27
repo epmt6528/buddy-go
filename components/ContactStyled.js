@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 import { device } from '../styles/mediaQueries'
-import { color } from '../styles/ThemeConfig'
+import { globalValue, color } from '../styles/ThemeConfig'
 
 export const DIV = styled.div`
   display: grid;
-  grid-template: 1fr 1fr / none;
+  grid-template: 0.5fr 1fr / none;
   align-items: center;
 
   margin: 40px auto 120px;
-  padding: 0 5px;
+  padding: 0 ${globalValue.edgePadding};
   max-width: 886px;
 
   @media ${device.laptop} {

@@ -44,57 +44,18 @@ export const MOBILEMENU = styled.div`
     display: none;
   }
 
-  .mobileMenuButton {
-    position: fixed;
-    left: calc(50% - 100px / 2);
-    background-color: ${color.gray};
-    padding: 20px 20px 10px;
-    border-radius: 50% 50% 0 0;
-    z-index: 5;
-    bottom: 0;
-    transition: bottom 0.5s;
+  background-color: ${color.gray};
 
-    :hover {
-      cursor: pointer;
-    }
-  }
-
-  .mobileMenu {
-    background-color: ${color.gray};
-    width: 100vw;
-
-    position: fixed;
-    z-index: 5;
-    left: 0;
-    right: 0;
-    transition: bottom 0.5s;
-  }
-
-  .closed {
-    bottom: -172px;
-  }
-
-  .opened {
-    bottom: 0;
-
-    .mobileMenuButton {
-      bottom: 140px;
-    }
-  }
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
   ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    padding: 10px;
-
-    a {
-      transition: color 0.5s;
-
-      &:hover {
-        color: ${color.pink};
-      }
-    }
+    padding: 5px 10px 20px;
   }
 `

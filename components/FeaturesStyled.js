@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { device } from '../styles/mediaQueries'
+import { globalValue } from '../styles/ThemeConfig'
 
 export const DIV = styled.div`
   max-width: 1425px;
@@ -7,6 +8,7 @@ export const DIV = styled.div`
 
 export const SCREEN__DIV = styled.div`
   margin: 70px 0 0;
+  padding: 0 ${globalValue.edgePadding};
   display: flex;
   justify-content: center;
   align-items: center;

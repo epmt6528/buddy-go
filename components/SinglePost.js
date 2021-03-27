@@ -1,11 +1,21 @@
 import { server } from '../config'
 import Image from 'next/image'
-
+import Link from 'next/link'
 import { DIV } from './SinglePostStyled'
 
 const SinglePost = ({ post }) => {
   return (
     <DIV>
+      <Link href="/">
+        <Image
+          src="/img/logo/headerWhiteLogo.png"
+          width={179}
+          height={80}
+          alt="Buddy, Go!"
+          className="logo"
+        />
+      </Link>
+
       <div className="postHeaderDiv">
         <h1>{post.title}</h1>
 
