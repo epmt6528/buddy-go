@@ -12,7 +12,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Header
-        pictureName="homeHero"
+        page="home"
         heading1="connecting"
         heading2="pet lovers"
         paragraph="Buddy,Go! helps you meet other pet enthusiasts around and make new friends."

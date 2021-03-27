@@ -8,7 +8,7 @@ export default function BuddyNews({ posts }) {
   return (
     <div>
       <Header
-        pictureName="blogHero"
+        page="blog"
         heading1="buddy"
         heading2="news"
         paragraph="Stay connected and don’t miss our latest updates"
