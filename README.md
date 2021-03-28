@@ -49,7 +49,6 @@ Taichi Murai
   </li>
 </ul>
 
-<i class="fab fa-github"></i>
 
 <h2> License </h2>
 
