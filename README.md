@@ -23,14 +23,17 @@ Taichi Murai
   <li>
     Leonart Gutz (Lead Full Stack Developer)
     <a href="https://www.linkedin.com/in/leonartgutz/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
+    <a href="https://github.com/leonartgutz"><img src="https://i.stack.imgur.com/tskMh.png" alt="github"></a>
   </li>
   <li>
     Taichi Murai (Front End Developer)
     <a href="https://www.linkedin.com/in/taichimurai/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
+    <a href="https://github.com/epmt6528"><img src="https://i.stack.imgur.com/tskMh.png" alt="github"></a>
   </li>
   <li>
     Liz Brito (Front End Developer)
     <a href="https://www.linkedin.com/in/lizcostafernandes/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
+    <a href="https://github.com/lizbrito"><img src="https://i.stack.imgur.com/tskMh.png" alt="github"></a>
   </li>
   <li>
     Gustavo Palladini (Lead Branding Designer)
@@ -46,7 +49,7 @@ Taichi Murai
   </li>
 </ul>
 
-
+<i class="fab fa-github"></i>
 
 <h2> License </h2>
 
