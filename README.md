@@ -18,35 +18,25 @@
   <h4> Original Project Team :rocket:</h4>
   <ul>
     <li>
-      Julia Francese (Project Manager)
-      <a href="https://www.linkedin.com/in/julia-francese/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
+      <a href="https://www.linkedin.com/in/julia-francese/">Julia Francese (Project Manager)</a>
     </li> 
     <li>
-      Leonart Gutz (Lead Full Stack Developer)
-      <a href="https://www.linkedin.com/in/leonartgutz/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
-      <a href="https://github.com/leonartgutz"><img src="https://i.stack.imgur.com/tskMh.png" alt="github"></a>
+      <a href="https://www.linkedin.com/in/leonartgutz/">Leonart Gutz (Lead Full Stack Developer)</a>
     </li>
     <li>
-      Taichi Murai (Front End Developer)
-      <a href="https://www.linkedin.com/in/taichimurai/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
-      <a href="https://github.com/epmt6528"><img src="https://i.stack.imgur.com/tskMh.png" alt="github"></a>
+      <a href="https://www.linkedin.com/in/taichimurai/">Taichi Murai (Front End Developer)</a>
     </li>
     <li>
-      Liz Brito (Front End Developer)
-      <a href="https://www.linkedin.com/in/lizcostafernandes/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
-      <a href="https://github.com/lizbrito"><img src="https://i.stack.imgur.com/tskMh.png" alt="github"></a>
+      <a href="https://www.linkedin.com/in/lizcostafernandes/">Liz Brito (Front End Developer)</a>
     </li>
     <li>
-      Gustavo Palladini (Lead Branding Designer)
-      <a href="https://www.linkedin.com/in/gpalladini/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
+      <a href="https://www.linkedin.com/in/gpalladini/">Gustavo Palladini (Lead Branding Designer)</a>
     </li>
     <li>
-      Marina Lemos (Lead UX/UI Designer)
-      <a href="https://www.linkedin.com/in/marinalemos/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
+      <a href="https://www.linkedin.com/in/marinalemos/">Marina Lemos (Lead UX/UI Designer)</a>
     </li>
     <li>
-      Mandeep Hissowal (Content Designer)
-      <a href="https://www.linkedin.com/in/mandykaur09/"><img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin" /></a>
+      <a href="https://www.linkedin.com/in/mandykaur09/">Mandeep Hissowal (Content Designer)</a>
     </li>
   </ul>
 
