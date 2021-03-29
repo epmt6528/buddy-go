@@ -1,7 +1,7 @@
 <p align="center" >
   <a href="https://next-js-buddy-go.vercel.app/"><img src="https://user-images.githubusercontent.com/53918541/112741853-ebfdfc00-8f3d-11eb-8766-730086985748.png" /></a><br />
   
-  <img src="https://user-images.githubusercontent.com/53918541/112910774-f688d480-90a8-11eb-9237-d9e0783880e9.png" />
+  <img src="https://user-images.githubusercontent.com/53918541/112910774-f688d480-90a8-11eb-9237-d9e0783880e9.png" width="180px;" />
 </p>
 
 <div align="center">
