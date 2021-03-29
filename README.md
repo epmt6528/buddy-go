@@ -17,25 +17,25 @@
 
   <h4> Original Project Team :rocket:</h4>
     <p>
-  <a href="https://www.linkedin.com/in/julia-francese/"><strong>Julia Francese</strong> <br/> Project Manager</a>
+  <a href="https://www.linkedin.com/in/julia-francese/"><strong>Julia Francese</strong></a> <br/> Project Manager
     </p> 
     <p>
-      <a href="https://www.linkedin.com/in/leonartgutz/"><strong>Leonart Gutz</strong> <br/> Lead Full Stack Developer</a>
+      <a href="https://www.linkedin.com/in/leonartgutz/"><strong>Leonart Gutz</strong></a> <br/> Lead Full Stack Developer
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/taichimurai/"><strong>Taichi Murai</strong> <br/> Front End Developer</a>
+      <a href="https://www.linkedin.com/in/taichimurai/"><strong>Taichi Murai</strong></a> <br/> Front End Developer
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/lizcostafernandes/"><strong>Liz Brito</strong> <br/> Front End Developer</a>
+      <a href="https://www.linkedin.com/in/lizcostafernandes/"><strong>Liz Brito</strong></a> <br/> Front End Developer
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/gpalladini/"><strong>Gustavo Palladini</strong> <br/> Lead Branding Designer</a>
+      <a href="https://www.linkedin.com/in/gpalladini/"><strong>Gustavo Palladini</strong></a> <br/> Lead Branding Designer
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/marinalemos/"><strong>Marina Lemos</strong> <br/> Lead UX/UI Designer</a>
+      <a href="https://www.linkedin.com/in/marinalemos/"><strong>Marina Lemos</strong></a> <br/> Lead UX/UI Designer
     </p>
     <p>
-      <a href="https://www.linkedin.com/in/mandykaur09/"><strong>Mandeep Hissowal</strong> <br/> Content Designer</a>
+      <a href="https://www.linkedin.com/in/mandykaur09/"><strong>Mandeep Hissowal</strong></a> <br/> Content Designer
     </p>
  
 
