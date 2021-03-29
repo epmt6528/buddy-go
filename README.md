@@ -16,29 +16,28 @@
   Taichi Murai
 
   <h4> Original Project Team :rocket:</h4>
-  <ul>
-    <li>
+    <p>
       <a href="https://www.linkedin.com/in/julia-francese/">Julia Francese (Project Manager)</a>
-    </li> 
-    <li>
+    </p> 
+    <p>
       <a href="https://www.linkedin.com/in/leonartgutz/">Leonart Gutz (Lead Full Stack Developer)</a>
-    </li>
-    <li>
+    </p>
+    <p>
       <a href="https://www.linkedin.com/in/taichimurai/">Taichi Murai (Front End Developer)</a>
-    </li>
-    <li>
+    </p>
+    <p>
       <a href="https://www.linkedin.com/in/lizcostafernandes/">Liz Brito (Front End Developer)</a>
-    </li>
-    <li>
+    </p>
+    <p>
       <a href="https://www.linkedin.com/in/gpalladini/">Gustavo Palladini (Lead Branding Designer)</a>
-    </li>
-    <li>
+    </p>
+    <p>
       <a href="https://www.linkedin.com/in/marinalemos/">Marina Lemos (Lead UX/UI Designer)</a>
-    </li>
-    <li>
+    </p>
+    <p>
       <a href="https://www.linkedin.com/in/mandykaur09/">Mandeep Hissowal (Content Designer)</a>
-    </li>
-  </ul>
+    </p>
+ 
 
 
   <h2> License </h2>
