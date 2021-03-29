@@ -38,7 +38,7 @@
     </p>
  
 
-  <p align="center" ><a href="https://next-js-buddy-go.vercel.app/"><img src="https://user-images.githubusercontent.com/53918541/112741509-506b8c00-8f3b-11eb-9275-aeb416d6d2bb.gif" width="80px;" /></a></p>
+  <p align="center" ><a href="https://next-js-buddy-go.vercel.app/"><img src="https://user-images.githubusercontent.com/53918541/112741509-506b8c00-8f3b-11eb-9275-aeb416d6d2bb.gif" width="180px;" /></a></p>
   
   <h2>Thanks for reading me! See you :dog:</h2>
 </div>
