@@ -5,7 +5,7 @@
 <div align="center">
   <h2> Buddy, Go! </h2>
   <p>This is a personal <a href="https://nextjs.org/">Next.js</a> project bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app">create-next-app</a>.</p>
-  I used to work in a project for a monile app using Vue.js and a word press promotional website for the app. However, for some reasons, the website is gone so I decided to remake it from scratch by myself using Next.js.
+  I used to work in a project for a monile app using Vue.js and a word press promotional website for the app. <br/>However, for some reasons, the website is gone so I decided to remake it from scratch by myself using Next.js.
 
   <h2> Features </h2>
 
