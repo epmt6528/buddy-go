@@ -5,6 +5,7 @@
 <div align="center">
   <h2> Buddy, Go! </h2>
   <p>This is a personal <a href="https://nextjs.org/">Next.js</a> project bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app">create-next-app</a>.</p>
+  I used to work in a project for a monile app using Vue.js and a word press promotional website for the app. However, for some reasons, the website is gone so I decided to remake it from scratch by myself using Next.js.
 
   <h2> Features </h2>
 
@@ -43,4 +44,6 @@
   <h2> License </h2>
 
   <p align="center" ><a href="https://next-js-buddy-go.vercel.app/"><img src="https://user-images.githubusercontent.com/53918541/112741509-506b8c00-8f3b-11eb-9275-aeb416d6d2bb.gif" width="80px;" /></a></p>
+  
+  <h2>Thanks for reading me! See you :dog:</h2>
 </div>
