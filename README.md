@@ -3,7 +3,7 @@
 </p>
 
 <h2> Buddy, Go! </h2>
-This is a personal <a href="https://nextjs.org/">Next.js</a> project bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app">create-next-app</a>.
+<p>This is a personal <a href="https://nextjs.org/">Next.js</a> project bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app">create-next-app</a>.</p>
 
 <h2> Features </h2>
 
