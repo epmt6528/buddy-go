@@ -2,7 +2,7 @@
   <a href="https://next-js-buddy-go.vercel.app/"><img src="https://user-images.githubusercontent.com/53918541/112741853-ebfdfc00-8f3d-11eb-8766-730086985748.png" /></a><br />
 </p>
 
-<div style="text-align:center;">
+<div align="center">
   <h2> Buddy, Go! </h2>
   <p>This is a personal <a href="https://nextjs.org/">Next.js</a> project bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app">create-next-app</a>.</p>
 
