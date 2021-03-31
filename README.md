@@ -9,7 +9,7 @@
   <p>This is a personal <a href="https://nextjs.org/">Next.js</a> project bootstrapped with <a href="https://github.com/vercel/next.js/tree/canary/packages/create-next-app">create-next-app</a>.</p>
   <p>I used to work in a project for a monile app using Vue.js and a word press promotional website for the app. <br/>However, for some reasons, the website is gone so I decided to remake it from scratch by myself using Next.js!</p>
 
-  <img src="https://user-images.githubusercontent.com/53918541/113094687-fcfd7600-91a6-11eb-9e18-41d280e223c7.png" />
+  <img src="https://user-images.githubusercontent.com/53918541/113094687-fcfd7600-91a6-11eb-9e18-41d280e223c7.png" width="360px;"/>
 
 
 
