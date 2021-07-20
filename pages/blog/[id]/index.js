@@ -1,8 +1,5 @@
 import { server } from '../../../config'
-import NavWhite from '../../../components/NavWhite'
-import PostNav from '../../../components/PostNav'
-import SinglePost from '../../../components/SinglePost'
-
+import { SinglePost, NavWhite } from '../../../components'
 import { postsList } from '../../../data'
 
 export default function SinglePostPage({ post }) {

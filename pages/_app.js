@@ -1,15 +1,22 @@
-import Layout from '../components/Layout'
+import { useEffect, useState } from 'react'
+import { Layout } from '../components'
 import '../styles/globals.css'
-
 import { GlobalStyles } from '../styles/ThemeConfig'
 
-function MyApp({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
+  const [isLoaded, setIsLoaded] = useState(false)
+
+  useEffect(() => {
+    setIsLoaded(true)
+  }, [])
+
   return (
-    <Layout>
+    <Layout style={{ visibility: isLoaded ? 'visible' : 'hidden' }}>
       <GlobalStyles />
+
       <Component {...pageProps} />
     </Layout>
   )
 }
 
-export default MyApp
+export default App

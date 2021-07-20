@@ -1,7 +1,5 @@
 import { server } from '../../config'
-import Header from '../../components/Header'
-import PostList from '../../components/PostList'
-
+import { Header, PostList } from '../../components'
 import { postsList } from '../../data'
 
 export default function BuddyNews({ posts }) {

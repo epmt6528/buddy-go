@@ -1,15 +1,15 @@
 import Meta from './Meta'
 import Footer from './Footer'
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
+  const { style, children } = props
+
   return (
-    <>
+    <div>
       <Meta />
-      <div>
-        <main>{children}</main>
-      </div>
+      <main style={style}>{children}</main>
       <Footer />
-    </>
+    </div>
   )
 }
 

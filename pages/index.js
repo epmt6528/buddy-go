@@ -1,11 +1,5 @@
 import { server } from '../config'
-import Header from '../components/Header'
-import Features from '../components/Features'
-import Download from '../components/Download'
-import Team from '../components/Team'
-import Blog from '../components/Blog'
-import Contact from '../components/Contact'
-
+import { Blog, Contact, Download, Features, Header, Team } from '../components'
 import { postsList } from '../data'
 
 export default function Home({ posts }) {
