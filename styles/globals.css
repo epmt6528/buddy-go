@@ -1,16 +1,19 @@
 @font-face {
   font-family: 'SF Compact Rounded';
   src: url('/fonts/SF-Compact-Text-Rounded-Semibold.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'SF Compact Thin';
-  src: url('/fonts/SF-Compact-Text-Thin.woff') format('truetype');
+  src: url('/fonts/SF-Compact-Text-Thin.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'SF Compact Rounded Ultralight';
   src: url('/fonts/SF-Compact-Text-Rounded-Ultralight.ttf') format('truetype');
+  font-display: swap;
 }
 
 html,
